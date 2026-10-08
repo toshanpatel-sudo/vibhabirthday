@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday Vibha 💖</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;1,500;1,700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#e0218a;--hot:#ff4fa3;--blush:#ffd9ec;--gold:#e8c35a;--plum:#2a0a22;--ink:#3a0f2e;--card:rgba(255,255,255,.82);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);height:100%}
+*{box-sizing:border-box}
+body{margin:0;height:100%;overflow:hidden;font-family:'Fredoka','Trebuchet MS',sans-serif;background:var(--plum);color:var(--ink)}
+.page{position:fixed;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px 18px;overflow-y:auto}
+.page.on{display:flex;animation:in .7s ease}
+@keyframes in{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+#p1{background:radial-gradient(circle at 30% 20%,#ff9fcf,#ff4fa3 45%,#c2187a)}
+#p2{background:radial-gradient(circle at 50% 0,#5a1747,#2a0a22 60%,#12040e);color:#fff}
+#p3{background:repeating-conic-gradient(#ffc2e0 0 25%,#ffe3f1 0 50%) 0 0/70px 70px;animation:in .7s ease,slide 12s linear infinite}
+#p3.on{display:flex}
+@keyframes slide{to{background-position:70px 70px}}
+.big{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;font-size:clamp(34px,10vw,64px);line-height:1.1;margin:0 0 10px;color:#fff;text-shadow:0 4px 18px rgba(120,0,70,.45)}
+.sub{font-size:clamp(18px,5vw,26px);color:#fff;margin:6px 0 26px;font-weight:600}
+.row{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:center}
+button{font:inherit;font-weight:700;font-size:20px;border:0;border-radius:999px;padding:14px 30px;cursor:pointer;color:#fff;background:linear-gradient(135deg,#ff2d92,#c2187a);box-shadow:0 8px 22px rgba(120,0,70,.4);transition:transform .15s}
+button:hover{transform:scale(1.06)}
+button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+button.alt{background:#fff;color:var(--pink)}
+.dodge{touch-action:none}
+.float{position:fixed;pointer-events:none;z-index:0;animation:rise linear infinite;opacity:.85}
+@keyframes rise{from{transform:translateY(105vh) rotate(0)}to{transform:translateY(-12vh) rotate(360deg)}}
+.page>*{position:relative;z-index:1}
+/* page 2 */
+.girl{width:min(210px,52vw);filter:drop-shadow(0 0 22px rgba(232,195,90,.55));animation:sway 4s ease-in-out infinite}
+@keyframes sway{50%{transform:translateY(-8px) rotate(1.5deg)}}
+.gold{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(22px,6vw,34px);margin:12px 0 4px;background:linear-gradient(90deg,#f7e08a,#e8c35a,#fff1b8,#e8c35a);background-size:200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 3s linear infinite}
+@keyframes shine{to{background-position:-200% 0}}
+.msg{max-width:440px;font-size:17px;line-height:1.5;margin:6px 0;color:#ffe6f3}
+.slogan{height:30px;font-size:19px;font-weight:600;color:var(--gold);margin:10px 0}
+#ask{display:none;margin-top:16px;min-height:130px;width:100%;max-width:420px}
+#ask.on{display:block;animation:in .6s}
+#ask p{font-size:21px;font-weight:600;margin:0 0 14px}
+/* page 3 */
+.card{background:var(--card);backdrop-filter:blur(6px);border:3px solid #fff;border-radius:28px;padding:24px 22px;max-width:480px;box-shadow:0 14px 40px rgba(200,20,120,.35)}
+.card h2{font-family:'Playfair Display',serif;font-style:italic;color:var(--pink);font-size:clamp(28px,8vw,40px);margin:0 0 12px}
+.card p{font-size:18px;line-height:1.55;margin:10px 0}
+.card .end{font-weight:700;color:var(--pink);font-size:21px}
+</style>
+</head>
+<body>
+
+<section class="page on" id="p1">
+  <h1 class="big">Happy Birthday,<br>Birthday Girlll! 🎀</h1>
+  <p class="sub">Vibha, quick question...<br>Do you like birthdays? 🎂</p>
+  <div class="row">
+    <button id="hell">Hell yeah 🔥</button>
+    <button id="yes" class="alt dodge">Yes</button>
+  </div>
+</section>
+
+<section class="page" id="p2">
+  <svg class="girl" viewBox="0 0 200 420" aria-hidden="true">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff4fa3"/><stop offset="1" stop-color="#8a0f55"/></linearGradient>
+      <linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1b8"/><stop offset="1" stop-color="#d4a62a"/></linearGradient>
+    </defs>
+    <path d="M70 70 C40 120 45 220 70 260 L130 260 C155 220 160 120 130 70 Z" fill="#4a1d12"/>
+    <rect x="92" y="108" width="16" height="26" rx="6" fill="#f2c2a0"/>
+    <ellipse cx="100" cy="82" rx="26" ry="32" fill="#f7d0b2"/>
+    <path d="M72 78 C72 40 128 40 128 78 C118 62 96 56 72 78Z" fill="#4a1d12"/>
+    <circle cx="90" cy="84" r="2.6" fill="#3a0f2e"/><circle cx="110" cy="84" r="2.6" fill="#3a0f2e"/>
+    <path d="M91 98 Q100 106 109 98" stroke="#d6336c" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M78 134 Q100 122 122 134 L116 190 Q100 198 84 190Z" fill="url(#g)"/>
+    <path d="M84 190 L116 190 L190 410 L10 410Z" fill="url(#g)"/>
+    <path d="M84 190 L116 190 L124 214 L76 214Z" fill="url(#gd)"/>
+    <path d="M60 300 L140 300" stroke="#fff" stroke-opacity=".25" stroke-width="2"/>
+    <path d="M78 134 L68 196" stroke="#f7d0b2" stroke-width="9" stroke-linecap="round"/>
+    <path d="M122 134 L132 196" stroke="#f7d0b2" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="100" cy="142" r="4" fill="url(#gd)"/>
+    <path d="M86 70 l3 -12 l5 8 l6 -10 l6 10 l5 -8 l3 12z" fill="url(#gd)"/>
+  </svg>
+  <h2 class="gold">Queen of the Universe, Vibha 👑</h2>
+  <p class="msg">Another year older, still fabulous, still undefeated. Your age is classified information. 😎</p>
+  <p class="msg"><em>Growing older is a privilege. Growing wiser is a choice, and you make it look elegant.</em></p>
+  <p class="msg">May your next year be richer in joy, bigger in dreams, and full of people who deserve you. Hit every goal in heels, always. ✨</p>
+  <div class="slogan" id="slogan"></div>
+  <div id="ask">
+    <p>Wanna go to the next page? 💖</p>
+    <div class="row" id="askrow">
+      <button id="noo" class="alt dodge">Noo</button>
+      <button id="go">💃💃</button>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="p3">
+  <div class="card">
+    <h2>How I feel about you 💗</h2>
+    <p>Vibha, you are such a good person. You help people so much, and you never judge them while doing it.</p>
+    <p>You really care for your friends, and you show up every single time. That is rare.</p>
+    <p>You are a strong woman, and also a fun, crazy one who makes every moment louder and better. 🎉</p>
+    <p class="end">I'm lucky to have you as my friend.<br>Happy Birthday, my Barbie! 🎀💖</p>
+  </div>
+</section>
+
+<script>
+const $=id=>document.getElementById(id);
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// floating hearts / sparkles
+const bits=['💖','✨','🎀','💗','🌸','👑','💄','👠'];
+function sprinkle(n){
+  if(reduce) return;
+  for(let i=0;i<n;i++){
+    const s=document.createElement('div');
+    s.className='float';
+    s.textContent=bits[Math.floor(Math.random()*bits.length)];
+    s.style.left=Math.random()*100+'vw';
+    s.style.fontSize=(16+Math.random()*26)+'px';
+    s.style.animationDuration=(8+Math.random()*10)+'s';
+    s.style.animationDelay=(-Math.random()*14)+'s';
+    document.body.appendChild(s);
+  }
+}
+sprinkle(22);
+
+function show(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('on'));
+  $(id).classList.add('on');
+}
+
+// makes a button impossible to click
+function dodge(btn){
+  const jump=e=>{
+    if(e) e.preventDefault();
+    btn.style.position='fixed';
+    btn.style.zIndex=50;
+    const w=btn.offsetWidth,h=btn.offsetHeight;
+    btn.style.left=Math.max(8,Math.random()*(innerWidth-w-16))+'px';
+    btn.style.top=Math.max(8,Math.random()*(innerHeight-h-16))+'px';
+  };
+  ['pointerenter','pointerdown','touchstart','mouseover','focus'].forEach(ev=>btn.addEventListener(ev,jump,{passive:false}));
+  btn.addEventListener('click',e=>{e.preventDefault();jump();});
+}
+dodge($('yes')); dodge($('noo'));
+
+$('hell').onclick=()=>{ show('p2'); startP2(); };
+$('go').onclick=()=>{ show('p3'); sprinkle(18); };
+
+const slogans=['Slay all day, birthday queen! 💅','Pink is a personality, and so are you 💖','Born to sparkle, built to shine ✨','Life is better when you are in it 🥂','Strong, kind and a little crazy: perfect 🎀','Make a wish, then go get it 👑'];
+let si=0,started=false;
+function startP2(){
+  if(started) return; started=true;
+  const el=$('slogan');
+  const tick=()=>{el.textContent=slogans[si++%slogans.length];};
+  tick(); setInterval(tick,2500);
+  setTimeout(()=>$('ask').classList.add('on'),10000);
+}
+</script>
+</body>
+</html>
